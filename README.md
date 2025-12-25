@@ -3,8 +3,9 @@
 Este projeto tem como objetivo demonstrar um fluxo profissional de Arquitetura e Análise de Dados, utilizando SQL para a criação de um banco de dados relacional, inserção de dados estruturados e a geração de insights de negócio através de consultas analíticas.
 
 O projeto simula um cenário real de vendas, onde um banco de dados é construído do zero para organizar informações de clientes, produtos e transações, permitindo o acompanhamento de métricas de faturamento e desempenho.
+--
 
-🎯 Objetivos
+🎯 ##Objetivos##
 Criar um banco de dados relacional (analise_vendas)
 
 Definir tabelas com chaves primárias e estrangeiras para garantir a integridade dos dados
