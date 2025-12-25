@@ -1,4 +1,4 @@
-# 📊 SalesMetrics-SQL-Analytics
+# 📊 Estruturação e Análise de Dados de Vendas com MySQL
 
 ## 📌 Descrição do Projeto
 
