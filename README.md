@@ -1,63 +1,70 @@
-📊 Estruturação e Análise de Dados de Vendas com MySQL
-📌 Descrição do Projeto
-Este projeto tem como objetivo demonstrar um fluxo profissional de Arquitetura e Análise de Dados, utilizando SQL para a criação de um banco de dados relacional, inserção de dados estruturados e a geração de insights de negócio através de consultas analíticas.
+# 📊 SalesMetrics-SQL-Analytics
+
+## 📌 Descrição do Projeto
+
+Este projeto demonstra um fluxo profissional de **Arquitetura e Análise de Dados**, utilizando **SQL** para a criação de um banco de dados relacional, inserção de dados estruturados e a geração de **insights de negócio** através de consultas analíticas.
 
 O projeto simula um cenário real de vendas, onde um banco de dados é construído do zero para organizar informações de clientes, produtos e transações, permitindo o acompanhamento de métricas de faturamento e desempenho.
---
 
-🎯 ##Objetivos##
-Criar um banco de dados relacional (analise_vendas)
+---
 
-Definir tabelas com chaves primárias e estrangeiras para garantir a integridade dos dados
+## 🎯 Objetivos
 
-Popular o banco com dados fictícios para simulação de transações
+* **Criação de Banco Relacional**: Implementar o banco de dados `analise_vendas`.
+* **Integridade de Dados**: Definir tabelas com chaves primárias e estrangeiras para garantir a integridade referencial.
+* **Simulação de Mercado**: Popular o banco com dados fictícios para testes de transações.
+* **Inteligência de Negócio**: Extrair indicadores financeiros e de comportamento de compra.
+* **Organização Profissional**: Estruturar scripts SQL de forma lógica para fácil manutenção.
 
-Executar consultas SQL para extração de indicadores financeiros e de comportamento
+---
 
-Demonstrar organização de scripts SQL para portfólio
+## 🛠️ Tecnologias Utilizadas
 
-🛠️ Tecnologias Utilizadas
-MySQL (Motor de banco de dados)
+* **MySQL**: Motor de banco de dados relacional.
+* **VS Code**: Editor de código principal.
+* **MySQL Workbench**: Gerenciamento de conexão e visualização.
+* **Linguagem SQL**: Comandos DDL, DML e DQL.
 
-VS Code (Editor de código)
+---
 
-MySQL Workbench (Gerenciamento e conexão)
+## 📂 Estrutura do Projeto
 
-Linguagem SQL (DDL, DML e DQL)
+O repositório está organizado da seguinte forma:
 
-📂 Estrutura do Projeto
+```
+
 projeto-mysql-analise-vendas/
 │
-├── 01_criacao_tabelas.sql    # Definição do banco e estrutura das tabelas
-├── 02_insercao_dados.sql     # Carga inicial de dados (Seed)
-├── 03_analises.sql           # Queries analíticas e insights
-└── README.md                 # Documentação do projeto
-📈 Análises Realizadas
-No script de análise de dados, foram respondidas as seguintes perguntas de negócio:
+├── 01_criacao_tabelas.sql    # Criação do banco, tabelas (clientes, produtos, vendas, itens) e chaves
+├── 02_insercao_dados.sql     # Scripts de carga (INSERT) para simulação do banco
+├── 03_analises.sql           # Queries analíticas (SUM, JOIN, GROUP BY) e KPIs
+└── README.md                 # Documentação completa do projeto
 
-Faturamento Total: Qual o valor total arrecadado em todas as vendas?
+```
 
-Desempenho por Período: Qual o faturamento detalhado mês a mês?
+## 📈 Análises Realizadas
 
-Ranking de Clientes: Quais clientes geraram maior receita para o negócio?
+Através das consultas desenvolvidas, foi possível extrair os seguintes resultados:
 
-Ticket Médio: Qual o valor médio gasto por venda realizada?
+* **Faturamento Total**: Cálculo do valor acumulado de todas as vendas.
+* **Faturamento por Mês**: Análise temporal do faturamento para identificar sazonalidade.
+* **Ranking de Clientes**: Identificação dos clientes com maior gasto acumulado (Total Gasto).
+* **Ticket Médio**: Cálculo da média de valor gasto por transação.
 
-🏗️ Estrutura do Banco de Dados
-O banco foi modelado com as seguintes tabelas:
+---
 
-clientes: Dados de localização e cadastro
+## 📌 Conclusão
 
-produtos: Informações sobre categorias e preços
+Este projeto demonstra competências fundamentais em SQL, incluindo a modelagem de relacionamentos entre tabelas e a escrita de consultas complexas utilizando `JOIN`, `GROUP BY` e funções de agregação como `SUM` e `AVG`. É uma base sólida para integrar dados com ferramentas de visualização como Power BI ou Python para análises ainda mais profundas.
 
-vendas: Registro principal das transações
+---
 
-itens_venda: Detalhamento dos produtos em cada venda (N:N)
+## 👤 Autor
 
-📌 Conclusão
-Este projeto demonstra competências fundamentais em SQL, incluindo a criação de relacionamentos entre tabelas e a escrita de consultas complexas utilizando JOIN, GROUP BY e funções de agregação (SUM, AVG). É uma base sólida para quem trabalha com análise de dados e deseja migrar para ferramentas como Power BI ou Tableau, conectando diretamente em fontes SQL.
+**Iohan Bryan da Silva Fortaleza**
+Analista de Dados em formação
 
-👤 Autor
 Iohan Bryan da Silva Fortaleza Analista de Dados em formação
-
-📧 Email: yohanbryan2000@gmail.com 🔗 LinkedIn: https://www.linkedin.com/in/iohan-bryan-566a6a398/ 📷 Instagram: https://www.instagram.com/iohanbryan_2/
+📧 E-mail: yohanbryan2000@gmail.com 
+🔗 LinkedIn: https://www.linkedin.com/in/iohan-bryan-566a6a398/ 
+📷 Instagram: https://www.instagram.com/iohanbryan_2/
