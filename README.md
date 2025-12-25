@@ -62,9 +62,8 @@ Este projeto demonstra competências fundamentais em SQL, incluindo a modelagem 
 ## 👤 Autor
 
 **Iohan Bryan da Silva Fortaleza**
-Analista de Dados em formação
+Analista de Dados
 
-Iohan Bryan da Silva Fortaleza Analista de Dados em formação
 📧 E-mail: yohanbryan2000@gmail.com 
 🔗 LinkedIn: https://www.linkedin.com/in/iohan-bryan-566a6a398/ 
 📷 Instagram: https://www.instagram.com/iohanbryan_2/
