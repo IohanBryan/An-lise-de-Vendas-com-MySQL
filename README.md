@@ -65,5 +65,5 @@ Este projeto demonstra competências fundamentais em SQL, incluindo a modelagem 
 Analista de Dados
 
 📧 E-mail: yohanbryan2000@gmail.com 
-🔗 LinkedIn: https://www.linkedin.com/in/iohan-bryan-566a6a398/ 
+🔗 LinkedIn:  https://www.linkedin.com/in/iohan-bryan/
 📷 Instagram: https://www.instagram.com/iohanbryan_2/
